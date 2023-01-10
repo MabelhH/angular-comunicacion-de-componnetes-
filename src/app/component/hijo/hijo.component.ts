@@ -1,14 +1,13 @@
-import { Component,Input} from '@angular/core';
-
+import { Component,Input,OnInit,Output,EventEmitter} from '@angular/core';
+import {FormGroup, FormBuilder, Validators} from '@angular/forms'
 @Component({
   selector: 'app-hijo',
   templateUrl: './hijo.component.html',
   styleUrls: ['./hijo.component.css']
 })
-export class HijoComponent {
+export class HijoComponent  {
+@Input() textohijo:string='';
 
-  
 
-constructor(){}
- 
+
 }

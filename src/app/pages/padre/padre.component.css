@@ -1,0 +1,44 @@
+.container{
+border: 2px solid blue;
+border-radius: 4px;
+padding: 45px;
+margin-top: 50px;
+background-color: rgb(149, 183, 246);
+}
+span{
+    color: darkgreen;
+    font-size: 20px;
+}
+label,input,select{
+    margin-left: 110px;
+    width: 960px;
+}
+
+h1{
+color: rgb(0, 162, 255);
+justify-content: center;
+text-align: center;
+margin-top: 45px;
+}
+.container2{
+    border: 2px solid rgb(62, 62, 62);
+    border-radius: 4px;
+    width: 95%;
+    margin-left: 25px;
+   
+
+}
+.formulario{
+  padding-left: 10px;
+  
+}
+button{
+    margin-left: 130px;
+}
+.respuesta{
+    color: rgb(15, 66, 17);
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+
+}

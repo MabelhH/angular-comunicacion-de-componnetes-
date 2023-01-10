@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PadreComponent } from './padre/padre.component';
 import { ComponentModule } from '../component/component.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule} from '@angular/forms';
+
 
 
 
@@ -13,6 +14,9 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     ComponentModule,
+    FormsModule,
+    ReactiveFormsModule
+    
   ],
   exports:[
     PadreComponent
